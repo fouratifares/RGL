@@ -30,7 +30,6 @@ def run_bandit():
     cumulative_rewardsRND, rewardsRND, Xi_RND = RND( T)
     print('Xi_RND: ', Xi_RND)
 
-    print(cumulative_rewardsOPT)
     array_cumulative_rewardsOPT = np.array(cumulative_rewardsOPT, dtype=float)
     array_rewardsOPT = np.array(rewardsOPT, dtype=float)
 
