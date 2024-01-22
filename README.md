@@ -1,10 +1,15 @@
 # RGL: Randomized Greedy Learning for Non-monotone Stochastic Submodular Maximization Under Full-bandit Feedback
 
-We investigate the problem of unconstrained combinatorial multi-armed bandits with full-bandit feedback and stochastic rewards for submodular maximization. Previous works investigate the same problem assuming a submodular and monotone reward function. In this work, we study a more general problem, i.e., when the reward function is not necessarily monotone, and the submodularity is assumed only in expectation. We propose Randomized Greedy Learning (RGL) algorithm and theoretically prove that it achieves a -regret upper bound of  for horizon  and number of arms . We also show in experiments that RGL empirically outperforms other full-bandit variants in submodular and non-submodular settings.
+We investigate the problem of unconstrained combinatorial multi-armed bandits with bandit feedback and stochastic rewards for submodular maximization. Previous works investigate the same problem assuming a submodular and monotone reward function. In this work, we study a more general problem, i.e., when the reward function is not necessarily monotone, and the submodularity is assumed only in expectation. We propose Randomized Greedy Learning (RGL) algorithm and theoretically prove that it achieves sublinear regret upper bound. We also show in experiments that RGL empirically outperforms other bandit variants in submodular and non-submodular settings.
 
-Paper Link: https://proceedings.mlr.press/v206/fourati23a/fourati23a.pdf .
+## RGL Paper
+[Paper PDF](https://proceedings.mlr.press/v206/fourati23a/fourati23a.pdf)
 
-![alt text](https://github.com/fouratifares/RGL/blob/main/submodular_sum.png)
+<!---
+%![alt text](https://github.com/fouratifares/RGL/blob/main/submodular_sum.png)
+-->
+
+<img src="https://github.com/fouratifares/RGL/blob/main/submodular_sum.png" width="600" height="200">
 
 ## Citing the Project
 
